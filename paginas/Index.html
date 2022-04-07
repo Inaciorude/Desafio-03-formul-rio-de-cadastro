@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 
-<!-- Deverá conter nesta página: 
-    1 - Campo de email.
-    2 - Senha e confirmação senha.
-    3 - Botão de confirmar que direciona
-    para página de login -->
-<html lang="en">
-<head> 
-    <title>Formulário de Cadastro</title>    
-</head>
+        <html lang="en">
+    <head> 
+        <title>Formulário de Novo Usuário</title>    
+    </head>
 
-<body>
-    <h2>Formulário de novo usuário:</h2> 
-    <form action="nome" method="post">
-        <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" />
-        </div>
-        <div>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" />
-        </div>
-        <div>
-            <label for="msg">Mensagem:</label>
-            <textarea id="msg"></textarea>
-        </div>
-    </form>
-    
-</body>
+    <body>
+        <h2>Formulário de novo usuário:</h2> 
+        
+        <form action="login.html">
+            <div>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" />
+                </p>
+            </div>
+            
+            <div>
+                <p>
+                    <label for="senha">Senha:</label>
+                    <input type="senha" id="senha" />               
+                </p>
+            </div>
+            
+            <div>
+                <p>
+                    <label for="confirme sua senha">Confirme sua senha:</label>
+                    <input type="confirme sua senha" id="confirme sua senha" /> 
+                </p>
+            </div>
+
+            
+            <div class="confirmar">
+                <button type="confirmar">Confirmar</button>
+            </div>
+        
+            
+        </form>
+        
+    </body>
 </html>
