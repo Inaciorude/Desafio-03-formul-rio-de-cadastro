@@ -7,17 +7,20 @@
     </head>
     <body>
         
-                           
+    <form>
+
+            <table>
+
                 <h2>Cadastre seus dados pessoais</h2>
 
                 <fieldset>
-                    
+
                     <div>
                         <p>
                             <label for="nome">Nome:</label>
                             <input type="nome" id="nome"placeholder="Digite seu nome" required/>    
                         </p>
-                   <div>
+                    </div>
 
                     <div>
                         <p>
@@ -42,6 +45,7 @@
                             <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
                             <label for="vehicle3"> Algoritmo</label><br>
                     
+                    
                     <div class="campo">
                         <label>Sexo:</label>
                         <label>
@@ -55,17 +59,31 @@
                         </label>
                     </div>
 
+                    <div>
+                        <label for="idade">Idade:</label>
+                        <select name="idade" id="idade">
+                        <option value="+18">+18</option>
+                        <option value="+22">+22</option>
+                        <option value="+30">+30</option>
+                        </select>
+                    </div>
+
                     <center>
 
-                    <input type="submit" value="Submit">
+                        <button type="cadastro">Cadastrar</button>
+                        <button type="limpar">Limpar</button>
 
                     </center>
-                    
-                </table>
 
+                    <div>
+                        <input id="file" name="file" type="file" />
+                    </div>
+ 
             </fieldset> 
 
-        
+        </table>
+
+        </form>
 
     </body>
 
