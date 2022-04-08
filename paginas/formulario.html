@@ -1,49 +1,72 @@
 <!DOCTYPE html>
     <html lang="en">
     <head>
-        <title>Formulário de Cadastro</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">  
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Formulário de Cadastro</title>
     </head>
-        <body>
-            <center>
+    <body>
+        
+                           
+                <h2>Cadastre seus dados pessoais</h2>
 
-            <h2>Cadastre seus dados pessoais</h2>
+                <fieldset>
+                    
+                    <div>
+                        <p>
+                            <label for="nome">Nome:</label>
+                            <input type="nome" id="nome"placeholder="Digite seu nome" required/>    
+                        </p>
+                   <div>
 
-            <ul>
-                <label for="nome">Nome:</label>
-                <input type="nome" id="nome"placeholder="Digite seu nome"/>    
-            </ul>
+                    <div>
+                        <p>
+                            <label for="nome">Sobrenome:</label>
+                            <input type="sobrenome" id="sobrenome"placeholder="Digite seu sobrenome"/>    
+                        </p>
+                    </div>
 
-            <ul>
-                <label for="nome">Sobrenome:</label>
-                <input type="sobrenome" id="sobrenome"placeholder="Digite seu sobrenome"/>    
-            </ul>
+                    <div>
+                        <p>
+                            <label for="story">Endereço:</label>
+                            <textarea></textarea>
+                        </p>
+                    </div>
 
-            <ul>
-                <label for="story">Endereço:</label>
-                <textarea></textarea>
-            </ul>
+                    <div class="campo"><label>Disciplina:<br></label>
+                        
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> Programação</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> Lógica</label><br>
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> Algoritmo</label><br>
+                    
+                    <div class="campo">
+                        <label>Sexo:</label>
+                        <label>
+                            <input type="radio" name="masculino" value="masculino" checked>Masculino
+                        </label>
+                        <label>
+                            <input type="radio" name="feminino" value="feminino">Feminino
+                        </label>
+                        <label>
+                            <input type="radio" name="nao informar" value="nao informar">Não Informar
+                        </label>
+                    </div>
 
-            <ul>
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label><br><br>
-  <input type="submit" value="Submit">
-            </ul>
+                    <center>
+
+                    <input type="submit" value="Submit">
+
+                    </center>
+                    
+                </table>
+
+            </fieldset> 
 
         
-    
 
-        </center>
-        
-        
+    </body>
 
-            
-        </body>
 </html>
